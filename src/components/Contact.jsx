@@ -63,7 +63,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className=''>
+        <div className='hidden md:flex'>
           <div class='max-w-2xl w-full mx-auto'>
             <div class='max-w-sm bg-[#1b1b1c] rounded-sm  shadow-md  '>
               <div class='flex justify-end px-4 pt-4'></div>
