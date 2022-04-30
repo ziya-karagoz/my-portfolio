@@ -7,7 +7,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#1b1b1a] justify-center'>
       {/** Container */}
 
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-yellow-500'>Hi, My name is</p>
         <h1 className='text-4xl sm:text-5xl md:text-7xl  font-bold text-gray-300'>
           Ziya Karagöz

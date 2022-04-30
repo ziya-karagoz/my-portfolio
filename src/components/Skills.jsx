@@ -18,7 +18,7 @@ const Skills = () => {
       className='w-full  md:h-screen h-fit bg-[#1b1b1a] text-gray-300'
     >
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-yellow-500 '>
             Skills
@@ -54,22 +54,6 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt='HTML icon' />
             <p className='my-4'>MONGO DB</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
-            <p className='my-4'>FIREBASE</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
-            <p className='my-4'>FIREBASE</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
-            <p className='my-4'>FIREBASE</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
-            <p className='my-4'>FIREBASE</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />

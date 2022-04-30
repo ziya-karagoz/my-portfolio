@@ -27,7 +27,7 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={1000}>
+          <Link to='home' href='home' smooth={true} duration={1000}>
             Home
           </Link>
         </li>
@@ -39,6 +39,11 @@ const Navbar = () => {
         <li>
           <Link to='skills' smooth={true} duration={1000}>
             Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='services' smooth={true} duration={1000}>
+            Services
           </Link>
         </li>
         <li>
@@ -67,7 +72,13 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={1000}>
+          <Link
+            onClick={handleClick}
+            to='home'
+            href='home'
+            smooth={true}
+            duration={1000}
+          >
             Home
           </Link>
         </li>
@@ -81,6 +92,17 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to='skills' smooth={true} duration={1000}>
             Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {" "}
+          <Link
+            onClick={handleClick}
+            to='services'
+            smooth={true}
+            duration={1000}
+          >
+            Services
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -107,6 +129,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/ziya-karagoz-77a8a71b4/'
             >
@@ -115,6 +138,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/ziya-karagoz'
             >
@@ -123,6 +147,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:ziyakaragoz42_@outlook.com'
             >
@@ -131,6 +156,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-gray-300'
               href={Resume}
             >
