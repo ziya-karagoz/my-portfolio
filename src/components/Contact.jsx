@@ -41,19 +41,19 @@ const Contact = () => {
             className='flex flex-col max-w-[500px] w-full'
           >
             <input
-              className='bg-transparent  border border-gray-500 p-2 object-contain'
+              className='bg-transparent  border border-gray-500 text-gray-200 p-2 object-contain'
               type='text'
               placeholder='Name'
               name='name'
             />
             <input
-              className='my-4 p-2 bg-transparent border border-gray-500'
+              className='my-4 p-2 bg-transparent border text-gray-200 border-gray-500'
               type='email'
               placeholder='Email'
               name='email'
             />
             <textarea
-              className='bg-transparent lg: border border-gray-500 p-2'
+              className='bg-transparent lg: border border-gray-500 text-gray-200 p-2'
               name='message'
               rows='7'
               placeholder='Message'
