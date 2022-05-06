@@ -22,16 +22,16 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Personal QR Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/ziya-karagoz/Personal_QR'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                     Code
                   </button>
                 </a>

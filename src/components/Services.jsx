@@ -26,19 +26,19 @@ const Services = () => {
                   <ul className='mb-6 list-reset'>
                     <li className='p-3 pl-12 mb-4 '>
                       <FaAngleDoubleRight className='self-center' />
-                      asdasd
+                      Experienced in Mongodb
                     </li>
                     <li className=' p-3 pl-12 mb-4 self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced in Firebase
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Worked with Express.js and Node.js
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced in OOP
                     </li>
                   </ul>
                   <Link to='contact' smooth={true} duration={1000}>
@@ -60,19 +60,19 @@ const Services = () => {
                   <ul className='mb-6 list-reset'>
                     <li className='p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Determinant in HTTP requests.
                     </li>
                     <li className=' p-3 pl-12 mb-4 self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced in Axios
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced in React
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced in node packages
                     </li>
                   </ul>
 
@@ -95,7 +95,6 @@ const Services = () => {
                   <ul className='mb-6 list-reset'>
                     <li className='p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
                     </li>
                     <li className=' p-3 pl-12 mb-4 self-center '>
                       <FaAngleDoubleRight />
