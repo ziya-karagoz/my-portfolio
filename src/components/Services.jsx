@@ -95,7 +95,7 @@ const Services = () => {
                     </li>
                     <li className=' p-3 pl-12 mb-4 self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      asdasd,
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
