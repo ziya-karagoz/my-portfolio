@@ -1,46 +1,37 @@
 import React, { useEffect } from "react";
-
+import { MdDownloading } from "react-icons/md";
 const RecycleMap = () => {
   useEffect(() => {
     console.log("first");
   }, []);
 
   return (
-    <div className='min-w-screen min-h-screen bg-random flex items-center justify-center px-5 py-5'>
-      <div
-        className='w-full mx-auto rounded-3xl shadow-xl bg-white'
-        style='max-width: 300px'
-      >
-        <div className='w-full px-5 pt-8 pb-3'>
-          <div className='rounded-full w-44 h-44 mx-auto border-8 border-gray-300 flex items-center justify-center'>
-            <i className='mdi mdi-arrow-down text-8xl text-gray-300 leading-none'></i>
+    <div className='flex h-screen w-full bg-[#1b1b1a] justify-center items-center'>
+      <div className='col-span-6 mt-5 bg-opacity-50 border border-gray-100 rounded shadow-lg cursor-pointer bg-[#262626] md:col-span-3 lg:col-span-2  '>
+        <div className='flex flex-row px-2 py-3 mx-3 justify-center'>
+          <div className='flex flex-col mt-1 mb-2 ml-4'>
+            <div className='text-2xl text-gray-600'>Recycle Mapp</div>
           </div>
         </div>
-        <div className='w-full px-5 text-center pb-8 border-b border-gray-300'>
-          <h1 className='text-2xl font-light text-gray-800 leading-tight'>
-            Ready when you are
-          </h1>
-          <p className='text-xs text-gray-500'>Transfer expires in 7 days</p>
+
+        <div className='flex justify-center px-2 mx-3 my-2 text-sm font-medium text-gray-400'>
+          <img
+            src='Mapp.png'
+            className='w-[300px] h-[300px]  rounded-full shadow-2xl object-cover text-[#333333]'
+          />
         </div>
-        <ul>
-          <li className='w-full px-5 py-2 border-b border-gray-300'>
-            <div className='w-full flex'>
-              <div className='flex-grow'>
-                <h3 className='text-sm text-gray-800 leading-tight'>
-                  LoremIpsum_sitamore.zip
-                </h3>
-                <p className='text-xs text-gray-500'>138 MB - zip</p>
-              </div>
-              <div className='w-12 text-right'>
-                <i className='mdi mdi-download-circle-outline text-blue-500 text-2xl'></i>
+
+        <div className='mb-5 border-t border-gray-50'>
+          <div className='flex flex-wrap  mx-5 mt-6 text-xs justify-center '>
+            <div className='flex mb-2 mr-4 font-normal text-gray-300 underline text-lg'>
+              Download Here
+            </div>
+            <div className='flex w-full mt-1 justify-end'>
+              <div className='mr-1 text-xs text-blue-700 cursor-pointer font-base'>
+                By Ziya Karagöz
               </div>
             </div>
-          </li>
-        </ul>
-        <div className='w-full px-5 py-5 text-center'>
-          <button className='bg-blue-500 hover:bg-blue-600 text-white rounded-full px-10 py-2 transition-colors'>
-            Download
-          </button>
+          </div>
         </div>
       </div>
     </div>
