@@ -24,7 +24,7 @@ const RecycleMap = () => {
         <div className='mb-5 border-t border-gray-50'>
           <div className='flex flex-wrap  mx-5 mt-6 text-xs justify-center '>
             <div className='flex mb-2 mr-4 font-normal text-gray-300 underline text-lg'>
-              <a href='../assets/app-debug.apk' download>
+              <a href='app-debug.apk' download>
                 Download here
               </a>
             </div>
