@@ -4,10 +4,7 @@ import { Link } from "react-scroll";
 
 const Services = () => {
   return (
-    <div
-      name='services'
-      className='w-full  md:h-screen h-fit bg-[#1b1b1a] text-gray-300'
-    >
+    <div name='services' className='w-ful bg-[#1b1b1a] text-gray-300'>
       <div className='max-w-[1200px] mx-auto h-fit p-4 flex flex-col justify-center w-full '>
         <div className='mb-4'>
           <p className='text-4xl font-bold inline border-b-4 border-yellow-500 '>
