@@ -24,7 +24,9 @@ const RecycleMap = () => {
         <div className='mb-5 border-t border-gray-50'>
           <div className='flex flex-wrap  mx-5 mt-6 text-xs justify-center '>
             <div className='flex mb-2 mr-4 font-normal text-gray-300 underline text-lg'>
-              Download Here
+              <a href='../assets/ziya-resume.pdf' download>
+                Download here
+              </a>
             </div>
             <div className='flex w-full mt-1 justify-end'>
               <div className='mr-1 text-xs text-blue-700 cursor-pointer font-base'>
