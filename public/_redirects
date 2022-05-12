@@ -1,5 +1,3 @@
 # Redirects from what the browser requests to what we serve
 
-/ /
-/download /components/RecycleMap.jsx
-/cuties https://www.petsofnetlify.com
+/\* /index.html 200
