@@ -3,7 +3,7 @@ import { FaTwitter, FaGithub, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex flex-col w-full h-[150px] justify-center items-center bg-black text-gray-600'>
+    <div className='flex flex-col w-full h-[100px] justify-center items-center bg-black text-gray-600'>
       <span class='text-sm text-gray-500 '>
         Copyright © 2022 All rights reserved | Ziya Karagöz
       </span>
