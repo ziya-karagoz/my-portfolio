@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { MdDownload } from "react-icons/md";
 const RecycleMap = () => {
   useEffect(() => {
     console.log("first");
@@ -27,6 +28,8 @@ const RecycleMap = () => {
                 <a href='app-debug.apk' download>
                   Download
                 </a>
+
+                <MdDownload className='w-[22px] h-[22px] mt-1 ml-1' />
               </div>
             </button>
 
