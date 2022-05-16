@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { FiSettings } from "react-icons/fi";
+import { FiSettings, FiSearch } from "react-icons/fi";
 import { BiLogOut } from "react-icons/bi";
 const Deneme = () => {
   return (
@@ -61,6 +61,18 @@ const Deneme = () => {
         {/*  End Navbar */}
 
         <div className='w-full md:w-3/4 lg:w-4/5 p-5 md:px-12 lg:24 h-full overflow-x-scroll antialiased'>
+          <div class='flex relative mx-auto w-1/4 max-w-md'>
+            <input
+              className='flex border-2 border-primary bg-red transition h-12 px-5 pr-16 rounded-md focus:outline-none w-full text-black text-lg '
+              type='search'
+              name='search'
+              placeholder='Ara'
+            />
+            <button type='submit' class='absolute right-2 top-3 mr-4'>
+              <FiSearch className=' h-6 w-6 text-gray-300' />
+            </button>
+          </div>
+
           <div className='bg-white w-full shadow rounded-lg p-5'>
             <textarea
               className='bg-gray-200 w-full rounded-lg shadow border p-2'
