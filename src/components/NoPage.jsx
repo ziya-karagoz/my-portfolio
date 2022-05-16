@@ -7,7 +7,7 @@ const NoPage = () => {
       <h1 className='text-9xl font-extrabold text-white tracking-widest'>
         404
       </h1>
-      <div className='bg-yellow-500 px-2 text-sm rounded font-medium rotate-12 absolute'>
+      <div className='bg-yellow-500 px-2 text-sm rounded font-medium -rotate-12 absolute'>
         Page Not Found
       </div>
       <button className='mt-5'>
