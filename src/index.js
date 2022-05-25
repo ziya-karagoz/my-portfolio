@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RecycleMap from "./pages/RecycleMap.jsx";
 import RollDice from "./pages/RollDice";
 import NoPage from "./components/NoPage";
-import Deneme from "./playground/Deneme";
+import { Deneme } from "./playground/Deneme";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
