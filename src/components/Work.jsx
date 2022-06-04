@@ -11,8 +11,6 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-500'>
             Work
           </p>
-          <p className='py-6'>// Under Construction... </p>
-          <p>// Will Fetch Data from Github and Display Here </p>
         </div>
 
         {/* Container */}
@@ -22,15 +20,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Personal QR Application
+                Personal QR Application (React Native + Expo)
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed'>
+                <a href='https://github.com/ziya-karagoz/Personal_QR'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ziya-karagoz/Personal_QR'>
+                <a href='http://ziyakaragoz.com/download'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                     Code
                   </button>
@@ -42,15 +40,35 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Dream App (still working on it)
+              </span>
+              <div className='pt-8 text-center'></div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Recycle Mapp (Android Studio Project)
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/ziya-karagoz/TrashCanApp'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Code
                   </button>
                 </a>
-                <a href='/'>
+              </div>
+            </div>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Social App (Android Studio Project)
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/enesbilalseker/socialapp'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -63,15 +81,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Infinite Bouncer (Unity Porject)
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://play.google.com/store/apps/details?id=com.AftermathGames.InfiniteBouncer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ziya-karagoz/InfiniteBouncerGithub'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -83,36 +101,10 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Gone Hat (Unity Project)
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item */}
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
+                <a href='https://github.com/ziya-karagoz/GoneHatGithub'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -124,15 +116,25 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Football Score Bet App (React Native + Firebase)
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/ziya-karagoz/GoneHatGithub'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Code
                   </button>
                 </a>
-                <a href='/'>
+              </div>
+            </div>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Personal Qr App's Server (Node.js + Express + MongoDB)
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/ziya-karagoz/PQRServer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

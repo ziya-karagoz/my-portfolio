@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,9 +8,6 @@ const Footer = () => {
         Copyright © 2022 All rights reserved | Ziya Karagöz
       </span>
       <div className='flex  flex-row w-full justify-center items-center space-x-3 lg:mt-6 text-[#f2f2f2]'>
-        <a href='https://twitter.com/ziya_bireyi'>
-          <FaTwitter />
-        </a>
         <a href='https://github.com/ziya-karagoz'>
           <FaGithub />
         </a>

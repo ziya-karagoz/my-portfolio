@@ -38,13 +38,13 @@ const Services = () => {
                       Experienced in OOP
                     </li>
                   </ul>
-                  <Link to='contact' smooth={true} duration={1000}>
-                    <a
-                      href='#'
-                      className='block font-medium p-3 pl-12 text-center text-yellow-500'
-                    >
-                      Know more
-                    </a>
+                  <Link
+                    to='contact'
+                    className='block font-medium p-3 pl-12 text-center text-yellow-500'
+                    smooth={true}
+                    duration={1000}
+                  >
+                    <a href='#'>Know more</a>
                   </Link>
                 </div>
               </div>
@@ -91,28 +91,29 @@ const Services = () => {
 
                   <ul className='mb-6 list-reset'>
                     <li className='p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
+                      <FaAngleDoubleRight /> Know various stylesheet languages
+                      (tailwind, sass)
                     </li>
                     <li className=' p-3 pl-12 mb-4 self-center '>
                       <FaAngleDoubleRight />
-                      asdasd,
+                      Good knowledge of HTML, CSS, and JavaScript
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Familiar with React UI modules
                     </li>
                     <li className=' p-3 pl-12 mb-4  self-center '>
                       <FaAngleDoubleRight />
-                      asdasd
+                      Experienced with UX best practices
                     </li>
                   </ul>
-                  <Link to='contact' smooth={true} duration={1000}>
-                    <a
-                      href='#'
-                      className='block font-medium p-3 pl-12 text-center text-yellow-500'
-                    >
-                      Know more
-                    </a>
+                  <Link
+                    to='contact'
+                    className='block font-medium p-3 pl-12 text-center text-yellow-500'
+                    smooth={true}
+                    duration={1000}
+                  >
+                    <a href='#'>Know more</a>
                   </Link>
                 </div>
               </div>

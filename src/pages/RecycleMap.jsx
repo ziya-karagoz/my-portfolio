@@ -10,15 +10,8 @@ const RecycleMap = () => {
       <div className='col-span-6 mt-5 bg-opacity-50 border border-gray-300 rounded shadow-sm  hover:shadow-lg duration-500  md:col-span-3 lg:col-span-2  '>
         <div className='flex flex-row px-2 py-3 mx-3 justify-center'>
           <div className='flex flex-col mt-1 mb-2 ml-4'>
-            <div className='text-2xl  font-bold'>Recycle Mapp</div>
+            <div className='text-2xl  font-bold'>Personal QR</div>
           </div>
-        </div>
-
-        <div className='flex justify-center px-2 mx-3 my-2 text-sm font-medium text-gray-400'>
-          <img
-            src='Mapp.png'
-            className='w-[300px] h-[300px]  rounded-full hover:shadow-2xl object-cover hover:scale-[1.03] duration-1000 bg-gradient-to-br from-purple-200'
-          />
         </div>
 
         <div className='mb-5 border-t mx-3 '>
