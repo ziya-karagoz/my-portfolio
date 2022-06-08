@@ -9,6 +9,7 @@ import Skills from "../components/Skills";
 import Work from "../components/Work";
 
 const Display = () => {
+  //deneme
   return (
     <div>
       <Navbar />
