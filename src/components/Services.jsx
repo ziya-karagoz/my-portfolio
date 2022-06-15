@@ -21,21 +21,29 @@ const Services = () => {
                   </h3>
 
                   <ul className='mb-6 list-reset'>
-                    <li className='p-3 pl-12 mb-4 '>
-                      <FaAngleDoubleRight className='self-center' />
-                      Experienced in Mongodb
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in Mongodb</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4 self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced in Firebase
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in Firebase</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Worked with Express.js and Node.js
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Worked with Express.js and Node.js</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced in OOP
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in OOP</p>
                     </li>
                   </ul>
                   <Link
@@ -55,21 +63,29 @@ const Services = () => {
                   </h3>
 
                   <ul className='mb-6 list-reset'>
-                    <li className='p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Determinant in HTTP requests.
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Determinant in HTTP requests.</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4 self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced in Axios
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in Axios</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced in React
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in React</p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced in node packages
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>Experienced in node packages</p>
                     </li>
                   </ul>
 
@@ -90,21 +106,39 @@ const Services = () => {
                   </h3>
 
                   <ul className='mb-6 list-reset'>
-                    <li className='p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight /> Know various stylesheet languages
-                      (tailwind, sass)
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>
+                        Know various stylesheet languages (tailwind, sass)
+                      </p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4 self-center '>
-                      <FaAngleDoubleRight />
-                      Good knowledge of HTML, CSS, and JavaScript
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>
+                        {" "}
+                        Good knowledge of HTML, CSS, and JavaScript
+                      </p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Familiar with React UI modules
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>
+                        Familiar with React Design Patterns
+                      </p>
                     </li>
-                    <li className=' p-3 pl-12 mb-4  self-center '>
-                      <FaAngleDoubleRight />
-                      Experienced with UX best practices
+                    <li className='p-3 pl-12 mb-4 flex flex-row'>
+                      <div className='pt-1'>
+                        <FaAngleDoubleRight className='self-center' />
+                      </div>
+                      <p className='pl-3'>
+                        {" "}
+                        Experienced with UX best practices
+                      </p>
                     </li>
                   </ul>
                   <Link

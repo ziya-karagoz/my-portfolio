@@ -1,5 +1,14 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpg";
+
+const workgrid = {
+  gridHover:
+    "hover:bg-opacity-70 hover:bg-black opacity-0 group-hover:opacity-100",
+  gridHeader: "text-2xl font-bold text-white tracking-wider",
+  gridButtonContainer: "pt-8 text-center",
+  gridButton:
+    "text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg",
+};
+
 const Work = () => {
   return (
     <div
@@ -16,128 +25,114 @@ const Work = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-top bg-[url("/src/assets/pqr.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
                 Personal QR Application (React Native + Expo)
               </span>
-              <div className='pt-8 text-center'>
-                <a href='https://github.com/ziya-karagoz/Personal_QR'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='http://ziyakaragoz.com/download'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Demo</button>
+                </a>
+                <a href='https://github.com/ziya-karagoz/Personal_QR'>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-top bg-[url("/src/assets/belge-chain.jpg")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Dream App (still working on it)
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
+                Document Transfer App on Blockchain (React + Nodejs)
               </span>
-              <div className='pt-8 text-center'></div>
+              <div className={workgrid.gridButtonContainer}>
+                <a href='https://github.com/mnsgl/test'>
+                  <button className={workgrid.gridButton}>Code</button>
+                </a>
+              </div>
             </div>
           </div>
           {/* Grid Item */}
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-contain bg-center bg-[url("/src/assets/recycle-mapp.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
                 Recycle Mapp (Android Studio Project)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://github.com/ziya-karagoz/TrashCanApp'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-top bg-[url("/src/assets/social-app.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
                 Social App (Android Studio Project)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://github.com/enesbilalseker/socialapp'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
           {/* Grid Item */}
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-center bg-[url("/src/assets/infinite-bouncer.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
                 Infinite Bouncer (Unity Porject)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://play.google.com/store/apps/details?id=com.AftermathGames.InfiniteBouncer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+                  <button className={workgrid.gridButton}>Demo</button>
                 </a>
                 <a href='https://github.com/ziya-karagoz/InfiniteBouncerGithub'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-fill bg-top bg-[url("/src/assets/gone-hat.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Gone Hat (Unity Project)
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
+                Gone Hat Project (Unity Game)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://github.com/ziya-karagoz/GoneHatGithub'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-top bg-[url("/src/assets/scoretahmin.jpg")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Football Score Bet App (React Native + Firebase)
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
+                Football Score App (React Native + Firebase)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://github.com/ziya-karagoz/GoneHatGithub'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='bg-cover bg-top bg-[url("/src/assets/pqr-server.png")] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Personal Qr App's Server (Node.js + Express + MongoDB)
+            <div className={workgrid.gridHover}>
+              <span className={workgrid.gridHeader}>
+                Personal Qr App's Server (Express + MongoDB)
               </span>
-              <div className='pt-8 text-center'>
+              <div className={workgrid.gridButtonContainer}>
                 <a href='https://github.com/ziya-karagoz/PQRServer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <button className={workgrid.gridButton}>Code</button>
                 </a>
               </div>
             </div>
